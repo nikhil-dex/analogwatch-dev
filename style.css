@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+.watch{
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    border: 3px solid white;
+    background: rgb(217, 217, 255) url("img/clockimg.jpg") no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.HourHand{
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    transform-origin: left;
+    }
+.MinHand{
+    position: absolute;
+    height: 6px;
+    width: 150px;
+    background-color: black;
+    transform-origin: left;
+    
+    }
+.SecondHand{
+    position: absolute;
+    height: 2px;
+    width: 170px;
+    background-color: black;
+    transform-origin: left;
+
+}
